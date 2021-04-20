@@ -4,7 +4,7 @@ import com.sun.jna.Platform;
 
 import java.io.*;
 
-public class JAhk {
+public class JAHK {
     private static boolean init = false;
 
     public static void init() {
@@ -24,7 +24,7 @@ public class JAhk {
 
     private static void copyFromPath(String src, String dest) {
         try {
-            copy(JAhk.class.getClassLoader().getResourceAsStream(src), new FileOutputStream(dest), new byte[8192]);
+            copy(JAHK.class.getClassLoader().getResourceAsStream(src), new FileOutputStream(dest), new byte[8192]);
         } catch (IOException e) {
             e.printStackTrace();
         }
