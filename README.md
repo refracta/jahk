@@ -14,7 +14,6 @@ JAHK is AutoHotKey wrapper for Java
 JAHK.init();
 AutoHotKey instance = AutoHotKey.getInstance();
 instance.eval("Run, notepad.exe");
-System.out.println(getNotepadRectangle());
 ```
 [src/test/java/Notepad.java](https://github.com/refracta/jahk/blob/main/src/test/java/Notepad.java): Example of using Notepad.exe
 
