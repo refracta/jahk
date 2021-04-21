@@ -17,7 +17,7 @@ public class AutoHotKey {
         return instance;
     }
 
-    private void init() {
+    public void init() {
         this.autoHotKeyDLL = Native.load(AHK_DLL_PATH, AutoHotKeyDLL.class);
     }
 
